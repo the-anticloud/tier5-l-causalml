@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_CAUSALML",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "uber/causalml",
+  "commit": "9a2327811406",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 43.06,
+      "min": 38.53,
+      "max": 46.25,
+      "all": [
+        46.02,
+        46.25,
+        38.53,
+        44.01,
+        40.5
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_CAUSALML (uber/causalml) \u2014 250 files, 41771 source lines, licence Apache-2.0, primary language ['Python']",
+      "token_count": 36,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "causal",
+        "##ml",
+        "(",
+        "uber",
+        "/",
+        "causal",
+        "##ml",
+        ")",
+        "\u2014",
+        "250",
+        "files",
+        ",",
+        "417",
+        "##7",
+        "##1",
+        "source",
+        "lines"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5859,
+      "classification_latency_ms": 116.96,
+      "status": "PASS"
+    }
+  }
+}

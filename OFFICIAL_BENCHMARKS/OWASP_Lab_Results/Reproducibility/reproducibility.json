@@ -1,0 +1,42 @@
+{
+  "benchmark": "OWASP_Lab_Results",
+  "project": "L_CAUSALML",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_CAUSALML",
+    "slug": "uber/causalml",
+    "commit": "9a2327811406",
+    "tracked_files": 250,
+    "source_lines": 41771,
+    "licence": "Apache-2.0",
+    "size_mb": 52.93
+  },
+  "inputs_hash": "853d52987a0b34d16db5f6e07fc28d8015dfe13e55f56fbf9ae732b2f641eb0f",
+  "outputs": {
+    "results_file": "TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\OFFICIAL_BENCHMARKS\\OWASP_Lab_Results\\results.json",
+    "results_sha256": "654db644b63e7bf94477576d28036e284df9ab08dd0f25f80c16ba239162bd87"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/OWASP_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

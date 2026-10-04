@@ -1,0 +1,21 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "L_CAUSALML",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/AlDanial/cloc",
+  "results": {
+    "framework": "CLOC \u2014 Count Lines of Code (via project_facts.json)",
+    "source": "https://github.com/AlDanial/cloc",
+    "total_files": 250,
+    "total_source_lines": 41771,
+    "languages": {
+      "Python": 106,
+      "Cython": 11,
+      "JavaScript": 1
+    },
+    "primary_language": "Python",
+    "language_count": 3,
+    "lines_per_file": 167.1,
+    "status": "PASS"
+  }
+}

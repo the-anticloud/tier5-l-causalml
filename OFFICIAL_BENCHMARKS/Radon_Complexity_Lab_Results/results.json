@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_CAUSALML",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.9464285714285716
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.9464285714285716,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\UPSTREAM\\causalml\\exceptions.py\n    F 1:0 handle_xgboost_error - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\UPSTREAM\\causalml\\features.py\n    F 237:0 load_data - C (12)\n    M 193:4 OneHotEncoder.transform - A (5)\n    C 136:0 OneHotEncoder - A (3)\n    C 13:0 LabelEncoder - A (2)\n    M 36:4 LabelEncoder._get_label_encoder_and_max - A (2)\n    M 79:4 LabelEncoder.fit - A (2)\n    M 91:4 LabelEncoder.transform - A (2)\n    M 106:4 LabelEncoder.fit_transform - A (2)\n    M 160:4 OneHotEncoder._transform_col - A (2)\n    M 24:4 LabelEncoder.__init__ - A (1)\n    M 33:4 LabelEncoder.__repr__ - A (1)\n    M 67:4 LabelEncoder._transform_col - A (1)\n    M 147:4 OneHotEncoder.__init__ - A (1)\n    M 157:4 OneHotEncoder.__repr__ - A (1)\n    M 188:4 OneHotEncoder.fit - A (1)\n    M 222:4 OneHotEncoder.fit_transform - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\UPSTREAM\\causalml\\match.py\n    M 146:4 NearestNeighborMatch.match - C (13)\n    M 377:4 MatchOptimizer.check_table_one - C (12)\n    M 447:4 MatchOptimizer.search_best_match - C (11)\n    C 84:0 NearestNeighborMatch - B (6)\n    C 294:0 MatchOptimizer - B (6)\n    F 34:0 create_table_one - A (3)\n    M 432:4 MatchOptimizer.match_and_check - A (2)\n    F 14:0 smd - A (1)\n    M 115:4 NearestNeighborMatch.__init__ - A (1)\n    M 271:4 NearestNeighborMatch.match_by_group - A (1)\n    M 295:4 MatchOptimizer.__init__ ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\UPSTREAM\\setup.py - A (76.74)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\UPSTREAM\\causalml\\exceptions.py - A (81.86)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\UPSTREAM\\causalml\\features.py - A (61.40)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_CAUSALML\\UPSTREAM\\causalml\\match.py - A (50.61)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBOD"
+  }
+}
